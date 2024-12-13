@@ -16,7 +16,7 @@ datasource db {
 model Transaction {
   id            String                   @id @default(uuid())
   name          String
-  type          TransactionStype
+  type          TransactionsType
   amount        Decimal                  @db.Decimal(10, 2)
   category      TransactionCategory
   paymentMethod TransactionPaymentMethod
@@ -26,7 +26,7 @@ model Transaction {
   userId        String
 }
 
-enum TransactionStype {
+enum TransactionsType {
   DEPOSIT
   EXPENSE
   INVESTMENT
