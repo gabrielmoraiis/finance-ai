@@ -99,7 +99,7 @@ export const TRANSACTION_CATEGORY_OPTIONS = [
   },
   {
     value: TransactionCategory.OTHER,
-    label: TRANSACTION_CATEGORY_LABELS[TransactionCategory.HOUSING],
+    label: TRANSACTION_CATEGORY_LABELS[TransactionCategory.OTHER],
   },
   {
     value: TransactionCategory.SALARY,
